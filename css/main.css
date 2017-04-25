@@ -16,24 +16,32 @@
     margin-bottom: -10px;
     margin-top: 20px;
     margin-left: -10px;
+    float: left;
 
 }
 
 .if p{
     color: white;
-    float: right;
     padding-top: 300px;
-    clear: both;
+    width: 195px;
+    float: left;
 }
 
 .center{
-    
-    float: left;
-
+    width: 800px;
 }
 
+#logo{
+    float: right;
+    width: 400px;
+    height: auto;
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+
 .center h1{
-    color: red;    
+    color: red;
 }
 
 .center h2{
@@ -42,16 +50,18 @@
     font-size: 20px;
 }
 
+.center h3{
+    font-size: 16px;
+    margin-bottom: -15px;
+}
+
+.center p{
+    line-height: 1.5em;
+    width: 50%;
+}
+
 ul{
-    align-content: left;
+    margin-left: -25px;
+    
 }
 
-h3{
-    line-height: 1em;
-}
-
-
-.logo img{
-    float: right;
-    clear: both;
-}
